@@ -1,0 +1,8 @@
+{
+  "name": "zf-proto-test",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "7cc89528"
+}
