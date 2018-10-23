@@ -5,6 +5,20 @@
 </ion-header>
 
 <ion-content padding>
+	<!--Login--
+	<ion-title id="login">Please enter your log in details:</ion-title>
+	<ion-list>
+		<ion-item>
+			<ion-input placeholder="Username" [(ngModel)]="username" type="username"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Password" [(ngModel)]="password" type="password"></ion-input>
+		</ion-item>
+	</ion-list>
+	<button ion-button full (click)="login()">Log Me In!</button>
+	<button ion-button full color="light" (click)="goRegister()">Sign Up</button>
+	End of Login-->
+
   <h2>Welcome to Ionic!</h2>
   <p>
     This starter project comes with simple tabs-based layout for apps
@@ -14,4 +28,5 @@
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
-</ion-content>
+
+  <button ion-button color="secondary">Dead Button</button>
