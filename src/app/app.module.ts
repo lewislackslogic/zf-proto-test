@@ -3,27 +3,29 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { FAQsPage } from '../pages/faqs/faqs';
 import { LoginPage } from '../pages/login/login';
+import { CycletoworkPage } from '../pages/cycletowork/cycletowork';
+import { TalentIncentivePage } from '../pages/talent-incentive/talent-incentive';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { RegisterPage } from '../pages/register/register';
+import { NewsfeedPage } from '../pages/newsfeed/newsfeed';
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
+    NewsfeedPage,
     ContactPage,
     HomePage,
     TabsPage,
     FAQsPage,
-    RegisterPage,
-    LoginPage
+    LoginPage,
+    CycletoworkPage,
+    TalentIncentivePage
   ],
   imports: [
     BrowserModule,
@@ -32,13 +34,14 @@ import { RegisterPage } from '../pages/register/register';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+    NewsfeedPage,
     ContactPage,
     HomePage,
     TabsPage,
     FAQsPage,
-    RegisterPage,
-    LoginPage
+    LoginPage,
+    CycletoworkPage,
+    TalentIncentivePage
   ],
   providers: [
     StatusBar,

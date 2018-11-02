@@ -5,28 +5,39 @@
 </ion-header>
 
 <ion-content padding>
-	<!--Login--
-	<ion-title id="login">Please enter your log in details:</ion-title>
-	<ion-list>
-		<ion-item>
-			<ion-input placeholder="Username" [(ngModel)]="username" type="username"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-input placeholder="Password" [(ngModel)]="password" type="password"></ion-input>
-		</ion-item>
-	</ion-list>
-	<button ion-button full (click)="login()">Log Me In!</button>
-	<button ion-button full color="light" (click)="goRegister()">Sign Up</button>
-	End of Login-->
 
-  <h2>Welcome to Ionic!</h2>
+  <h2>Welcome to the ZoteApp Demo!</h2>
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
+  	In this app, you will be able to test some of the potential functionalities of the
+  	ZoteApp. This is intended to give you an insight as to what is possible,
+  	and perhaps invoke ideas for requirements you did not previously consider.
   </p>
 
-  <button ion-button color="secondary">Dead Button</button>
+  <h3><u>Main Features of this App</u></h3>
+  <ul>
+  	<li>
+  		Login w/authentication
+  	</li>
+  	<li>
+  		Tabbed UI
+  	</li>
+  	<li>
+  		Fully operational navigation buttons
+  	</li>
+  	<li>
+  		Fully operational links to internal & external pages
+  	</li>
+  </ul>
+ 
+  <!--Employee Benefit Schemes-->
+  <article>
+  	<h2>Zotefoams Employee Benefit Schemes</h2>
+	<p>Click on the button below for information on our <strong><em>cycle to work</em></strong> scheme:</p>
+	<button class=homeButtons ion-button color="secondary" (click)="cycleToWork()">Cycle to Work</button>
+
+	<p>Click on the button below for information on our <strong><em>talent incentive</em></strong> scheme:</p>
+	<button class=homeButtons id=incentiveButton ion-button (click)="talentIncentive()">Talent Incentive</button>
+  </article>
+  <!--END-->
+
+ </ion-content>

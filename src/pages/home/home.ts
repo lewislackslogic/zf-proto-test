@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { RegisterPage } from '../register/register';
+import { CycletoworkPage } from '../cycletowork/cycletowork';
+import { TalentIncentivePage } from '../talent-incentive/talent-incentive';
 
 @Component({
   selector: 'page-home',
@@ -21,8 +22,11 @@ export class HomePage {
     
   }
 
-  goRegister(){
-    this.navCtrl.push(RegisterPage);
+  cycleToWork(){
+    this.navCtrl.push(CycletoworkPage);
   }
 
+  talentIncentive(){
+    this.navCtrl.push(TalentIncentivePage);
+  }
 }

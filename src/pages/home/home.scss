@@ -1,3 +1,24 @@
 page-home {
-    
+    .homeButtons{
+        display: inline-block;
+        padding: 15px 25px;
+        outline: none;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #999;
+        text-align: center;
+    }
+
+    #incentiveButton{
+        background:mediumblue;
+    }
+
+    .homeButtons:hover{
+        background-color: #999;
+    }
+
+    .homeButtons:active{
+        background-color: #999;
+        box-shadow: 10px 5px 2.5px;
+        transform: translateY(4px);
+    }
 }

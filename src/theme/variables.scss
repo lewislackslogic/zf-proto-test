@@ -72,7 +72,6 @@ $colors: (
 
 @import "ionic.theme.default";
 
-
 // Ionicons
 // --------------------------------------------------
 // The premium icon font for Ionic. For more info, please see:
@@ -86,3 +85,8 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+//--Changing Background Colour--//
+$background-ios-color: #e6f2ff;
+$backround-md-color: #e6f2ff;
+$background-wp-color: #e6f2ff;
