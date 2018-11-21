@@ -15,16 +15,72 @@
 
 <ion-content padding>
 
+  <!--1st Manual Social Post-->
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/flamingo.jpg">
+      </ion-avatar>
+      <h2>ManualPost 1</h2>
+      <p>November 21, 2018</p>
+    </ion-item>
+
+    <img src="assets/imgs/swan.jpg">
+
+    <ion-card-content>
+      <p>
+        This is a test post, to see if the social card post works.
+
+        All data, including social stat values, have been manually entered.
+        This data would need to be pulled from a server, and programmed to
+        intermittently refresh & update the values. 
+
+        The "Like" & "Comment" buttons are dead, but could be programmed
+        in the style of details&summary to drop down & hide the comments,
+        for example. Details of who's liked the post and the comments
+        will need to be formatted and programmed accordingly.
+
+        Similarly, the "xhrs ago" information would need to update itself
+        at set periods and display the new value.
+      </p>
+    </ion-card-content>
+
+    <!--Social buttons - post footer-->
+    <ion-row>
+
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>15 Likes</div>
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>10 Comments</div>
+        </button>
+      </ion-col>
+
+      <ion-col center text-center>
+        <ion-note>
+          5h ago
+        </ion-note>
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
   <!--
-    <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+    <ion-refresher on-refresh="doRefresh()"></ion-refresher> - potential pull-to-refresh start
   -->
 
-  <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon>
+  <!-- <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon>
   <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon> <ion-icon name="bug"></ion-icon>
 
 <p>Oh dear, looks like this army of bugs destroyed my newsfeed.</p><ion-icon name="sad"></ion-icon>
 <br>
 <p><em>Newsfeed under construction...</em></p>
-<ion-icon name="construct"></ion-icon> <ion-icon name="build"></ion-icon>
+<ion-icon name="construct"></ion-icon> <ion-icon name="build"></ion-icon>-->
 
 </ion-content>
